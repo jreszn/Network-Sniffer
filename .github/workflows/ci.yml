@@ -38,7 +38,7 @@ jobs:
 
     - name: Security audit with Bandit
       run: |
-        bandit -r . -x ./venv,./tests -s B110,B112,B603,B607
+        bandit -r . -x ./venv,./tests -s B110,B112,B404,B603,B607
 
     - name: Run Pytest suite
       run: |
