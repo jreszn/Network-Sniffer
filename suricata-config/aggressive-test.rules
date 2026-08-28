@@ -1,0 +1,2 @@
+alert ip any any -> any any (msg:"TEST: ANY IP TRAFFIC"; sid:9000003; rev:1;)
+alert icmp any any -> any any (msg:"TEST: ICMP ANY ANY"; sid:9000004; rev:1; classtype:icmp-event;)
