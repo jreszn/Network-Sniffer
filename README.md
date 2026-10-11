@@ -1,4 +1,4 @@
-# CodeAlpha Network Security Toolkit
+# Network Security Toolkit
 
 Cybersecurity internship project combining network packet analysis with intrusion detection.
 
